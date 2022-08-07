@@ -28,6 +28,8 @@ def index():
                         ## neuen Eintrag in Datenbank committen ##
                         db.session.commit()
                         return redirect('/')
+
+                        
                 except:
                         return 'There was an issue adding your record'
         else:
