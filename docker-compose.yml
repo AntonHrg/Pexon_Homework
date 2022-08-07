@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app: 
+    build: ./Pexon_Homework/
+    volumes: 
+      -  ./Pexon_Homework/:/usr/src/app/
+    ports: 
+      - 5000:5000
+
+    

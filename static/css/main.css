@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #42e0cf;
+}
+
+.content {
+    margin: 0 auto;
+    width: 500px;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+    background-color: #1f2a48;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+a{
+    color: white;
+}
+
+pexon-logo{
+    width: 300px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+}
